@@ -1,0 +1,116 @@
+body 
+{ 
+    font-family: Helvetica,Arial,sans-serif;
+    margin:0px;
+    background: #d2bd86;
+    }
+
+h1 
+{
+    text-align: center;
+    margin-top:0.5em;
+    font-weight:bold;
+    text-shadow: -0px 1px 0px #ffffff; 
+    margin-bottom: 5px;
+}
+
+h2
+{
+	font-size: 13pt;
+	text-align: center;
+	margin-top: 0px;
+}
+
+h2 a
+{
+	text-decoration: underline;
+}
+
+h4 
+{
+    margin: 0px;
+    padding: 8px;
+    font-weight: normal;
+    border-top: 1px solid #44427a;
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited 
+{
+    color: black;
+}
+
+img.screenshot
+{
+	float: left;
+	margin-right: 0.5em;
+	margin-bottom: 1em;
+	border-width: 1px 1px 1px 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+.pageContent
+{
+    margin:5px;
+}
+
+.cryptogram
+{
+	font-family: "Courier New", Courier, monospace;
+}
+
+
+.fieldBlock
+{
+    border: 3px solid #000;
+    margin-bottom: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 0.2em 0.2em 0.2em #888; 
+}
+
+.fieldHeader
+{
+    color: white;
+    background: black;
+    font-weight:bold;
+    padding:8px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-top-left-radius:5px;  
+    border: 1px solid #44427a;
+}
+
+.fieldContent
+{
+    margin:0px;
+    background:white;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    border: 0px solid white;
+}
+
+.tip
+{
+    font-style: italic;
+    font-size: 0.8em;
+    border: 1px solid #FF0;
+    background-color: #FFB;
+    padding: 3px;
+}
+
+.answer
+{
+    padding: 8px;
+}
+
+.answer li
+{
+	padding-bottom: 1em;
+}
