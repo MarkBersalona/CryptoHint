@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CryptoHintAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CryptoHintAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		5E21DB9A12118BBB00F00BBF /* MatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E21DB9812118BBB00F00BBF /* MatchViewController.m */; };
+		5E21DB9B12118BBB00F00BBF /* MatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E21DB9912118BBB00F00BBF /* MatchViewController.xib */; };
+		5E27E21B120A053F005E8A10 /* CryptoHint_57x57_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E27E21A120A053F005E8A10 /* CryptoHint_57x57_icon.png */; };
+		5E472446123E6D4E008EA877 /* CryptoHint.css in Resources */ = {isa = PBXBuildFile; fileRef = 5E47243B123E6D4E008EA877 /* CryptoHint.css */; };
+		5E472447123E6D4E008EA877 /* CryptoHintAbout.html in Resources */ = {isa = PBXBuildFile; fileRef = 5E47243C123E6D4E008EA877 /* CryptoHintAbout.html */; };
+		5E472448123E6D4E008EA877 /* CryptoHintHelpDescription.html in Resources */ = {isa = PBXBuildFile; fileRef = 5E47243D123E6D4E008EA877 /* CryptoHintHelpDescription.html */; };
+		5E472449123E6D4E008EA877 /* CryptoHintHelpExample.html in Resources */ = {isa = PBXBuildFile; fileRef = 5E47243E123E6D4E008EA877 /* CryptoHintHelpExample.html */; };
+		5E47244A123E6D4E008EA877 /* CryptoHintHelpLetterSubstitutionScreens.html in Resources */ = {isa = PBXBuildFile; fileRef = 5E47243F123E6D4E008EA877 /* CryptoHintHelpLetterSubstitutionScreens.html */; };
+		5E47244B123E6D4E008EA877 /* SubstitutionPairsList-Shrunk.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E472440123E6D4E008EA877 /* SubstitutionPairsList-Shrunk.png */; };
+		5E47244C123E6D4E008EA877 /* CryptoHintHelpMatchScreen.html in Resources */ = {isa = PBXBuildFile; fileRef = 5E472441123E6D4E008EA877 /* CryptoHintHelpMatchScreen.html */; };
+		5E47244D123E6D4E008EA877 /* Pickers-Shrunk.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E472442123E6D4E008EA877 /* Pickers-Shrunk.png */; };
+		5E47244E123E6D4E008EA877 /* Match-Shrunk.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E472443123E6D4E008EA877 /* Match-Shrunk.png */; };
+		5E47244F123E6D4E008EA877 /* CryptoHintHelpMainScreen.html in Resources */ = {isa = PBXBuildFile; fileRef = 5E472444123E6D4E008EA877 /* CryptoHintHelpMainScreen.html */; };
+		5E472450123E6D4E008EA877 /* Main-ShrunkNumbered.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E472445123E6D4E008EA877 /* Main-ShrunkNumbered.png */; };
+		5E4D1B3E12492594006C9300 /* WebsiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EAAA6DE120CA8D700050AD9 /* WebsiteViewController.xib */; };
+		5E587434122FEBF70001EDC7 /* CryptoHintHelpHome.html in Resources */ = {isa = PBXBuildFile; fileRef = 5E58742B122FEBF50001EDC7 /* CryptoHintHelpHome.html */; };
+		5E587435122FEBF70001EDC7 /* CryptoHintHelpHints.html in Resources */ = {isa = PBXBuildFile; fileRef = 5E58742C122FEBF50001EDC7 /* CryptoHintHelpHints.html */; };
+		5E5C91C21210A1EC00F1B9B3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5C91C11210A1EC00F1B9B3 /* libsqlite3.0.dylib */; };
+		5E64AB95120C7936004DC9A2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E64AB93120C7936004DC9A2 /* MainViewController.m */; };
+		5E64AB96120C7936004DC9A2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E64AB94120C7936004DC9A2 /* MainViewController.xib */; };
+		5E6A0B5D12268CBC00184F5E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6A0B5C12268CBC00184F5E /* MessageUI.framework */; };
+		5E88071212390FA2005D1878 /* CryptoHint_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E88071012390FA2005D1878 /* CryptoHint_72x72.png */; };
+		5E88071312390FA2005D1878 /* CryptoHint_57x57_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E88071112390FA2005D1878 /* CryptoHint_57x57_icon@2x.png */; };
+		5E88073412391A2C005D1878 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E88073312391A2C005D1878 /* Default.png */; };
+		5E88073612391A35005D1878 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E88073512391A35005D1878 /* Default@2x.png */; };
+		5E95F15D120C4B59001E1964 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95F15B120C4B59001E1964 /* AboutViewController.m */; };
+		5E95F15E120C4B59001E1964 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E95F15C120C4B59001E1964 /* AboutViewController.xib */; };
+		5EA034871237C65900CF15D3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA034861237C65900CF15D3 /* Reachability.m */; };
+		5EA034961237C6BD00CF15D3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA034951237C6BD00CF15D3 /* SystemConfiguration.framework */; };
+		5EAAA690120CA14500050AD9 /* HowtoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAA68E120CA14500050AD9 /* HowtoViewController.m */; };
+		5EAAA691120CA14500050AD9 /* HowtoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EAAA68F120CA14500050AD9 /* HowtoViewController.xib */; };
+		5EAAA6DF120CA8D700050AD9 /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAA6DD120CA8D700050AD9 /* WebsiteViewController.m */; };
+		5EAAA735120CB18300050AD9 /* SubstitutionPickersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAA733120CB18300050AD9 /* SubstitutionPickersViewController.m */; };
+		5EAAA736120CB18300050AD9 /* SubstitutionPickersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EAAA734120CB18300050AD9 /* SubstitutionPickersViewController.xib */; };
+		5EAAA848120CD71E00050AD9 /* SubstitutionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAA846120CD71E00050AD9 /* SubstitutionListViewController.m */; };
+		5EAAA849120CD71E00050AD9 /* SubstitutionListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EAAA847120CD71E00050AD9 /* SubstitutionListViewController.xib */; };
+		5EED7AFF1216B11F00A1BE80 /* CryptoHint.db in Resources */ = {isa = PBXBuildFile; fileRef = 5EED7AFE1216B11F00A1BE80 /* CryptoHint.db */; };
+		5EF265CE1227EEB400158A49 /* ADD_dn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF265CC1227EEB400158A49 /* ADD_dn.png */; };
+		5EF265CF1227EEB400158A49 /* ADD_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF265CD1227EEB400158A49 /* ADD_up.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CryptoHintAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoHintAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CryptoHintAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoHintAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CryptoHint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoHint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CryptoHint_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoHint_Prefix.pch; sourceTree = "<group>"; };
+		5E21DB9712118BBB00F00BBF /* MatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchViewController.h; sourceTree = "<group>"; };
+		5E21DB9812118BBB00F00BBF /* MatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchViewController.m; sourceTree = "<group>"; };
+		5E21DB9912118BBB00F00BBF /* MatchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MatchViewController.xib; path = Classes/MatchViewController.xib; sourceTree = "<group>"; };
+		5E27E21A120A053F005E8A10 /* CryptoHint_57x57_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CryptoHint_57x57_icon.png; sourceTree = "<group>"; };
+		5E47243B123E6D4E008EA877 /* CryptoHint.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = CryptoHint.css; sourceTree = "<group>"; };
+		5E47243C123E6D4E008EA877 /* CryptoHintAbout.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CryptoHintAbout.html; sourceTree = "<group>"; };
+		5E47243D123E6D4E008EA877 /* CryptoHintHelpDescription.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CryptoHintHelpDescription.html; sourceTree = "<group>"; };
+		5E47243E123E6D4E008EA877 /* CryptoHintHelpExample.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CryptoHintHelpExample.html; sourceTree = "<group>"; };
+		5E47243F123E6D4E008EA877 /* CryptoHintHelpLetterSubstitutionScreens.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CryptoHintHelpLetterSubstitutionScreens.html; sourceTree = "<group>"; };
+		5E472440123E6D4E008EA877 /* SubstitutionPairsList-Shrunk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SubstitutionPairsList-Shrunk.png"; sourceTree = "<group>"; };
+		5E472441123E6D4E008EA877 /* CryptoHintHelpMatchScreen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CryptoHintHelpMatchScreen.html; sourceTree = "<group>"; };
+		5E472442123E6D4E008EA877 /* Pickers-Shrunk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pickers-Shrunk.png"; sourceTree = "<group>"; };
+		5E472443123E6D4E008EA877 /* Match-Shrunk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Match-Shrunk.png"; sourceTree = "<group>"; };
+		5E472444123E6D4E008EA877 /* CryptoHintHelpMainScreen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CryptoHintHelpMainScreen.html; sourceTree = "<group>"; };
+		5E472445123E6D4E008EA877 /* Main-ShrunkNumbered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main-ShrunkNumbered.png"; sourceTree = "<group>"; };
+		5E58742B122FEBF50001EDC7 /* CryptoHintHelpHome.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CryptoHintHelpHome.html; sourceTree = "<group>"; };
+		5E58742C122FEBF50001EDC7 /* CryptoHintHelpHints.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CryptoHintHelpHints.html; sourceTree = "<group>"; };
+		5E5C91C11210A1EC00F1B9B3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		5E64AB92120C7936004DC9A2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5E64AB93120C7936004DC9A2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5E64AB94120C7936004DC9A2 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
+		5E6A0B5C12268CBC00184F5E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5E88071012390FA2005D1878 /* CryptoHint_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CryptoHint_72x72.png; sourceTree = "<group>"; };
+		5E88071112390FA2005D1878 /* CryptoHint_57x57_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CryptoHint_57x57_icon@2x.png"; sourceTree = "<group>"; };
+		5E88072C123910B5005D1878 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		5E88073312391A2C005D1878 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5E88073512391A35005D1878 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5E95F15A120C4B59001E1964 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		5E95F15B120C4B59001E1964 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		5E95F15C120C4B59001E1964 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutViewController.xib; path = Classes/AboutViewController.xib; sourceTree = "<group>"; };
+		5EA034851237C65900CF15D3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5EA034861237C65900CF15D3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5EA034951237C6BD00CF15D3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5EAAA68D120CA14500050AD9 /* HowtoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowtoViewController.h; sourceTree = "<group>"; };
+		5EAAA68E120CA14500050AD9 /* HowtoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowtoViewController.m; sourceTree = "<group>"; };
+		5EAAA68F120CA14500050AD9 /* HowtoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HowtoViewController.xib; path = Classes/HowtoViewController.xib; sourceTree = "<group>"; };
+		5EAAA6DC120CA8D700050AD9 /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		5EAAA6DD120CA8D700050AD9 /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
+		5EAAA6DE120CA8D700050AD9 /* WebsiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WebsiteViewController.xib; path = Classes/WebsiteViewController.xib; sourceTree = "<group>"; };
+		5EAAA732120CB18300050AD9 /* SubstitutionPickersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubstitutionPickersViewController.h; sourceTree = "<group>"; };
+		5EAAA733120CB18300050AD9 /* SubstitutionPickersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubstitutionPickersViewController.m; sourceTree = "<group>"; };
+		5EAAA734120CB18300050AD9 /* SubstitutionPickersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SubstitutionPickersViewController.xib; path = Classes/SubstitutionPickersViewController.xib; sourceTree = "<group>"; };
+		5EAAA845120CD71E00050AD9 /* SubstitutionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubstitutionListViewController.h; sourceTree = "<group>"; };
+		5EAAA846120CD71E00050AD9 /* SubstitutionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubstitutionListViewController.m; sourceTree = "<group>"; };
+		5EAAA847120CD71E00050AD9 /* SubstitutionListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SubstitutionListViewController.xib; path = Classes/SubstitutionListViewController.xib; sourceTree = "<group>"; };
+		5EED7AFE1216B11F00A1BE80 /* CryptoHint.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = CryptoHint.db; sourceTree = "<group>"; };
+		5EF265CC1227EEB400158A49 /* ADD_dn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADD_dn.png; sourceTree = "<group>"; };
+		5EF265CD1227EEB400158A49 /* ADD_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADD_up.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CryptoHint-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CryptoHint-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				5E5C91C21210A1EC00F1B9B3 /* libsqlite3.0.dylib in Frameworks */,
+				5E6A0B5D12268CBC00184F5E /* MessageUI.framework in Frameworks */,
+				5EA034961237C6BD00CF15D3 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* CryptoHintAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CryptoHintAppDelegate.m */,
+				5E64AB92120C7936004DC9A2 /* MainViewController.h */,
+				5E64AB93120C7936004DC9A2 /* MainViewController.m */,
+				5E21DB9712118BBB00F00BBF /* MatchViewController.h */,
+				5E21DB9812118BBB00F00BBF /* MatchViewController.m */,
+				5E95F15A120C4B59001E1964 /* AboutViewController.h */,
+				5E95F15B120C4B59001E1964 /* AboutViewController.m */,
+				5EAAA68D120CA14500050AD9 /* HowtoViewController.h */,
+				5EAAA68E120CA14500050AD9 /* HowtoViewController.m */,
+				5EAAA845120CD71E00050AD9 /* SubstitutionListViewController.h */,
+				5EAAA846120CD71E00050AD9 /* SubstitutionListViewController.m */,
+				5EAAA732120CB18300050AD9 /* SubstitutionPickersViewController.h */,
+				5EAAA733120CB18300050AD9 /* SubstitutionPickersViewController.m */,
+				5EAAA6DC120CA8D700050AD9 /* WebsiteViewController.h */,
+				5EAAA6DD120CA8D700050AD9 /* WebsiteViewController.m */,
+				5EA034851237C65900CF15D3 /* Reachability.h */,
+				5EA034861237C65900CF15D3 /* Reachability.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CryptoHint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				5E88072C123910B5005D1878 /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CryptoHint_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E472434123E6C64008EA877 /* HTML files */,
+				5EF265CC1227EEB400158A49 /* ADD_dn.png */,
+				5EF265CD1227EEB400158A49 /* ADD_up.png */,
+				5E88073312391A2C005D1878 /* Default.png */,
+				5E88073512391A35005D1878 /* Default@2x.png */,
+				5EED7AFE1216B11F00A1BE80 /* CryptoHint.db */,
+				5E27E21A120A053F005E8A10 /* CryptoHint_57x57_icon.png */,
+				5E88071112390FA2005D1878 /* CryptoHint_57x57_icon@2x.png */,
+				5E88071012390FA2005D1878 /* CryptoHint_72x72.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				5E64AB94120C7936004DC9A2 /* MainViewController.xib */,
+				5E21DB9912118BBB00F00BBF /* MatchViewController.xib */,
+				5E95F15C120C4B59001E1964 /* AboutViewController.xib */,
+				5EAAA68F120CA14500050AD9 /* HowtoViewController.xib */,
+				5EAAA847120CD71E00050AD9 /* SubstitutionListViewController.xib */,
+				5EAAA734120CB18300050AD9 /* SubstitutionPickersViewController.xib */,
+				5EAAA6DE120CA8D700050AD9 /* WebsiteViewController.xib */,
+				8D1107310486CEB800E47090 /* CryptoHint-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5C91C11210A1EC00F1B9B3 /* libsqlite3.0.dylib */,
+				5E6A0B5C12268CBC00184F5E /* MessageUI.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				5EA034951237C6BD00CF15D3 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E472434123E6C64008EA877 /* HTML files */ = {
+			isa = PBXGroup;
+			children = (
+				5E47243B123E6D4E008EA877 /* CryptoHint.css */,
+				5E47243C123E6D4E008EA877 /* CryptoHintAbout.html */,
+				5E47243D123E6D4E008EA877 /* CryptoHintHelpDescription.html */,
+				5E47243E123E6D4E008EA877 /* CryptoHintHelpExample.html */,
+				5E47243F123E6D4E008EA877 /* CryptoHintHelpLetterSubstitutionScreens.html */,
+				5E472440123E6D4E008EA877 /* SubstitutionPairsList-Shrunk.png */,
+				5E472441123E6D4E008EA877 /* CryptoHintHelpMatchScreen.html */,
+				5E472442123E6D4E008EA877 /* Pickers-Shrunk.png */,
+				5E472443123E6D4E008EA877 /* Match-Shrunk.png */,
+				5E472444123E6D4E008EA877 /* CryptoHintHelpMainScreen.html */,
+				5E472445123E6D4E008EA877 /* Main-ShrunkNumbered.png */,
+				5E58742B122FEBF50001EDC7 /* CryptoHintHelpHome.html */,
+				5E58742C122FEBF50001EDC7 /* CryptoHintHelpHints.html */,
+			);
+			name = "HTML files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CryptoHint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CryptoHint" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoHint;
+			productName = CryptoSearch;
+			productReference = 1D6058910D05DD3D006BFB54 /* CryptoHint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Bersalona Technologies LLC";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CryptoHint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CryptoHint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				5E27E21B120A053F005E8A10 /* CryptoHint_57x57_icon.png in Resources */,
+				5E95F15E120C4B59001E1964 /* AboutViewController.xib in Resources */,
+				5E64AB96120C7936004DC9A2 /* MainViewController.xib in Resources */,
+				5EAAA691120CA14500050AD9 /* HowtoViewController.xib in Resources */,
+				5EAAA736120CB18300050AD9 /* SubstitutionPickersViewController.xib in Resources */,
+				5EAAA849120CD71E00050AD9 /* SubstitutionListViewController.xib in Resources */,
+				5E21DB9B12118BBB00F00BBF /* MatchViewController.xib in Resources */,
+				5EED7AFF1216B11F00A1BE80 /* CryptoHint.db in Resources */,
+				5EF265CE1227EEB400158A49 /* ADD_dn.png in Resources */,
+				5EF265CF1227EEB400158A49 /* ADD_up.png in Resources */,
+				5E587434122FEBF70001EDC7 /* CryptoHintHelpHome.html in Resources */,
+				5E587435122FEBF70001EDC7 /* CryptoHintHelpHints.html in Resources */,
+				5E88071212390FA2005D1878 /* CryptoHint_72x72.png in Resources */,
+				5E88071312390FA2005D1878 /* CryptoHint_57x57_icon@2x.png in Resources */,
+				5E88073412391A2C005D1878 /* Default.png in Resources */,
+				5E88073612391A35005D1878 /* Default@2x.png in Resources */,
+				5E472446123E6D4E008EA877 /* CryptoHint.css in Resources */,
+				5E472447123E6D4E008EA877 /* CryptoHintAbout.html in Resources */,
+				5E472448123E6D4E008EA877 /* CryptoHintHelpDescription.html in Resources */,
+				5E472449123E6D4E008EA877 /* CryptoHintHelpExample.html in Resources */,
+				5E47244A123E6D4E008EA877 /* CryptoHintHelpLetterSubstitutionScreens.html in Resources */,
+				5E47244B123E6D4E008EA877 /* SubstitutionPairsList-Shrunk.png in Resources */,
+				5E47244C123E6D4E008EA877 /* CryptoHintHelpMatchScreen.html in Resources */,
+				5E47244D123E6D4E008EA877 /* Pickers-Shrunk.png in Resources */,
+				5E47244E123E6D4E008EA877 /* Match-Shrunk.png in Resources */,
+				5E47244F123E6D4E008EA877 /* CryptoHintHelpMainScreen.html in Resources */,
+				5E472450123E6D4E008EA877 /* Main-ShrunkNumbered.png in Resources */,
+				5E4D1B3E12492594006C9300 /* WebsiteViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CryptoHintAppDelegate.m in Sources */,
+				5E95F15D120C4B59001E1964 /* AboutViewController.m in Sources */,
+				5E64AB95120C7936004DC9A2 /* MainViewController.m in Sources */,
+				5EAAA690120CA14500050AD9 /* HowtoViewController.m in Sources */,
+				5EAAA6DF120CA8D700050AD9 /* WebsiteViewController.m in Sources */,
+				5EAAA735120CB18300050AD9 /* SubstitutionPickersViewController.m in Sources */,
+				5EAAA848120CD71E00050AD9 /* SubstitutionListViewController.m in Sources */,
+				5E21DB9A12118BBB00F00BBF /* MatchViewController.m in Sources */,
+				5EA034871237C65900CF15D3 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/CryptoHint/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CryptoHint_Prefix.pch;
+				INFOPLIST_FILE = "CryptoHint-Info.plist";
+				PRODUCT_NAME = CryptoHint;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/CryptoHint/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CryptoHint_Prefix.pch;
+				INFOPLIST_FILE = "CryptoHint-Info.plist";
+				PRODUCT_NAME = CryptoHint;
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E6074C1125BF61E002305B5 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Bersalona Technologies LLC";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INSTALL_PATH[sdk=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		5E6074C2125BF61E002305B5 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/CryptoHint/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CryptoHint_Prefix.pch;
+				INFOPLIST_FILE = "CryptoHint-Info.plist";
+				PRODUCT_NAME = CryptoHint;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CryptoHint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				5E6074C2125BF61E002305B5 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CryptoHint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				5E6074C1125BF61E002305B5 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
