@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+  <head>
+    <meta http-equiv="content-type" content=
+    "application/xhtml+xml; charset=iso-8859-1" />
+    <meta name="author" content="Bersalona Technologies LLC" />
+    <meta name="generator" content="author" />
+    <meta name="description" content=
+    "CryptoHint is an iPhone application designed to help solve cryptogram puzzles." />
+    <meta name="keywords" content=
+    "help solve cryptograms, cryptogram hint, cryptogram dictionary, cryptogram help" />
+    <meta name="rating" content="General" />
+    <meta name="viewport" content="width = device-width" />
+    <link rel="stylesheet" type="text/css" href="default.css" media=
+    "screen, projection, tv" title="Default" />
+    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+    <!-- New conditional stylesheets, recommended by Apple -->
+    <link media="only screen and (max-device-width: 480px)" href="iPhone.css"
+    type="text/css" rel="stylesheet" />
+    <link media="screen and (min-device-width: 481px)" href="default.css" type=
+    "text/css" rel="stylesheet" />
+    <title>
+      CryptoHint - solve cryptogram puzzles with a little help
+    </title>
+  </head>
+  <body>
+    <!-- For non-visual user agents: -->
+    <div id="top">
+      <a href="#main-copy" class="doNotDisplay doNotPrint">Skip to main
+      content.</a>
+    </div><!-- ##### Header ##### -->
+    <div id="header">
+      <div class="headerTitleRight">
+        <img src="images/CryptoHint_57x57.png" width="57" height="57" alt=
+        "CryptoHint icon" />
+      </div>
+      <h1 class="headerTitle">
+        CryptoHint
+      </h1>
+      <p class="headerSubtitle">
+        Solve cryptogram puzzles with a little help
+      </p>
+      <div class="subHeader">
+        <span class="doNotDisplay doNotPrint"><br />
+        Navigation:</span>
+        <ul class="navigation">
+          <li>
+            <a href="CryptoHintHome.html" class="tab">Overview</a>
+          </li>
+          <li>
+            <a href="CryptoHintHowto.html" class="tab">How to Use</a>
+          </li>
+          <li>
+            <span class="highlighted tab">Extras</span>
+          </li>
+          <li>
+            <a href="CryptoHintContact.html" class="tab">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div><!-- ##### Main Copy ##### -->
+    <div id="main-copy">
+      <!-- ###################################################################### -->
+      <div class="column1">
+        <h1>
+          Discussions
+        </h1>
+        <p>
+          The idea for <strong>CryptoHint</strong> was inspired by online tools
+          designed to solve cryptograms. At first I was going to create an
+          iPhone app to solve cryptograms, but realized attempting to type in
+          an entire cryptogram consisting of apparently randomized letters
+          would be a chore; besides that, the fun of solving a cryptogram is
+          eliminated by a tool that does it for you. It is better to have
+          <strong>a tool to <em>help</em> solve a cryptogram but not do
+          everything for you,</strong> and typing in one word at a time
+          wouldn't be so bad. There are cryptogram dictionaries that exist in
+          book form, though an Internet search only found one, published in
+          2007, and its wordlist is somewhat limited. Despite comments I've
+          found online that a programmer could easily write a program to
+          generate a list of cryptogram letter patterns, I didn't find anything
+          remotely like it in the iPhone App Store. And in the user reviews for
+          one of the cryptogram puzzle apps, a reviewer mentioned a nice
+          feature to have would be to look up words that would match a
+          cryptogram's letter pattern. It seemed obvious there could be a
+          market for an app that could do such lookups.
+        </p>
+        <p>
+          The addition of the list of recent cryptogram words came after
+          testing an earlier version of CryptoHint against real cryptograms and
+          crypto family puzzles. At the start of a given puzzle a word might
+          have an excessively long list of matches and I'd try other words in
+          the puzzle; I'd eventually need to reenter the previous word after a
+          while, which could be a pain. I thought, <strong>'Why can't the app
+          remember what I tried earlier so I don't need to retype it?'</strong>
+          So I added the feature and saved a lot of retyping.
+        </p>
+        <p>
+          The use of picker wheels to specify letter substitution pairs
+          eliminates the drudgery of having two text fields for the letter
+          pairs, parsing to account for multiple letter entries, punctuation,
+          numeric digits, checks for letters already used, and so on. Again,
+          saves a lot of typing. Afterwards I found a cryptogram puzzle app
+          that does the same thing with picker wheels, so it's not an original
+          idea.
+        </p>
+        <p>
+          CryptoHint uses <strong>Courier</strong> and <strong>Marker
+          Felt</strong> fonts to differentiate between cryptogram ciphertext
+          and solution plaintext wherever possible. When I started learning how
+          to solve cryptograms by hand so many years ago I'd solve the
+          cryptograms in the newspaper by writing the solution directly
+          underneath the printed puzzle. Courier is the closest to what appears
+          in newspaper cryptogram puzzles, and Marker Felt is the only
+          available font on the iPhone that has a handlettered look. For the
+          display of the substitution map, I had to make do with Courier in
+          italics since Marker Felt is not a monospaced font.
+        </p>
+        <h1>
+          Version History
+        </h1>
+        <p>
+          <strong>1.0.1 - 2011.06.23</strong><br />
+          The Frequency sort now considers the word frequency in addition
+          to letter frequency: common words will tend to be listed
+          before obscure words.
+        </p>
+        <p>
+          <strong>1.0.0 - 2010.10.14</strong><br />
+          CryptoHint now available in the iTunes App Store
+        </p>
+        <p>
+          <strong>0.8.2 - 2010.10.05</strong><br />
+          Letter substitution map plaintext now in maroon
+        </p>
+        <p>
+          <strong>0.8.1 - 2010.10.04</strong><br />
+          Issue 26 closed: Copied code from CryptoHintAppDelegate.m, 
+          applicationWillTerminate: to save data into 
+          applicationDidEnterBackground:.
+        </p>
+        <p>
+          <strong>0.8.0 - 2010.10.02</strong>
+        </p>
+        <ul>
+          <li>Issue 24 closed: Startup screen displays "Loading..." message
+          </li>
+          <li>Issue 25 closed: Letter substitution map plaintext now in another
+          color other than black
+          </li>
+        </ul>
+        <p>
+          <strong>0.7.5 - 2010.09.14</strong><br />
+          CryptoHint memory leaks fixed
+        </p>
+        <p>
+          <strong>0.7.4 - 2010.09.13</strong>
+        </p>
+        <ul>
+          <li>Issue 9 closed: Help/Description page describes crypto-family
+          puzzles
+          </li>
+          <li>Issue 20 closed: Help pages for Main, Match and Letter
+          Substitution screens include screenshots
+          </li>
+          <li>Issue 21 closed: Added a few sample cryptograms to the About
+          screen
+          </li>
+          <li>Issue 22 closed: Version history deleted from About screen
+          </li>
+          <li>Issue 23 closed: Default screen status bar blacked out
+          </li>
+        </ul>
+        <p>
+          <strong>0.7.3 - 2010.09.11</strong><br />
+          Issue 19 closed: Help button always returns to Help home page
+        </p>
+        <p>
+          <strong>0.7.2 - 2010.09.08</strong><br />
+          Requirement 24: Application shall account for bad network connection
+          when attempting to access application website
+        </p>
+      </div>
+      <!-- ###################################################################### -->
+      <div class="column2">
+        <h1>
+          Version History (cont.)
+        </h1>
+        <p>
+          <strong>0.7.1 - 2010.09.07</strong>
+        </p>
+        <ul>
+          <li>Issue 18 closed: Reworded Issue 11 description
+          </li>
+          <li>Issue 2 closed: If last substitution pair selected (no more
+          letters available), control returns to previous screen
+          </li>
+          <li>Issue 3 closed: If substitution map is full and user taps it,
+          control moves directly to substitution list for editing
+          </li>
+          <li>Issue 4 closed: Reset button on main screen clears status
+          </li>
+          <li>Issue 5 closed: Subsitution list now sorted alphabetically
+          </li>
+          <li>Issue 6 closed: If user deletes last subsitution pair at
+          substitution list, control returns to previous screen
+          </li>
+          <li>Issue 10 closed: Selected word from recent word list no longer
+          deselected with animation - prevents fading during search
+          </li>
+          <li>Issue 14 closed: Home button on website screen toolbar now
+          active, points to CryptoHint home page
+          </li>
+        </ul>
+        <p>
+          <strong>0.7.0 - 2010.09.03</strong>
+        </p>
+        <ul>
+          <li>Requirement 20: Application shall save substitution map to a file
+          on application termination
+          </li>
+          <li>Requirement 21: Application shall read substitution map from a
+          file on application startup
+          </li>
+          <li>Requirement 22: Application shall save history of cryptogram
+          words to a file on application termination
+          </li>
+          <li>Requirement 23: Application shall read history of cryptogram
+          words from a file on application startup
+          </li>
+        </ul>
+        <p>
+          <strong>0.6.2 - 2010.09.02</strong>
+        </p>
+        <ul>
+          <li>Issue 16 closed: Picker labels modified and moved to picker
+          window
+          </li>
+          <li>Issue 11 closed: Email option now points to CryptoHint's Email
+          address.
+          </li>
+        </ul>
+        <p>
+          <strong>0.6.1 - 2010.08.27</strong><br />
+          Issue 15 closed: When attempting to send Email, additional check on
+          canSendMail performed before calling modal in-app Email.
+        </p>
+        <p>
+          <strong>0.6.0 - 2010.08.27</strong>
+        </p>
+        <ul>
+          <li>Requirement 19: Application shall have feature to visit
+          application website
+          </li>
+          <li>Issue 13 closed: "Plus" disclosure indicators made smaller with
+          transparent backgrounds in order to reduce emphasis
+          </li>
+        </ul>
+        <p>
+          <strong>0.5.1 - 2010.08.26</strong><br />
+          Issue 12 closed: Main screen Reset button clears recent cryptogram
+          word list if substitution map is already cleared
+        </p>
+        <p>
+          <strong>0.5.0 - 2010.08.26</strong><br />
+          Requirement 18 - Application shall allow user to send Email to
+          Bersalona Technologies LLC
+        </p>
+        <p>
+          <strong>0.4.2 - 2010.08.25</strong><br />
+          Issue 1 closed: If a selected match and cryptogram words have any
+          matching letters, selected match word is invalidated
+        </p>
+        <p>
+          <strong>0.4.1 - 2010.08.25</strong><br />
+          Issue 7 closed: Help screen now modal
+        </p>
+        <p>
+          <strong>0.4.0 - 2010.08.24</strong><br />
+          Requirement 17: Application shall have an About screen specifying
+          version number and date
+        </p>
+        <p>
+          <strong>0.3.0 - 2010.08.24</strong><br />
+          Requirement 16: Application shall have a Help screen
+        </p>
+        <p>
+          <strong>0.2.9 - 2010.08.23</strong>
+        </p>
+        <ul>
+          <li>Requirement 15: Application may maintain a list of recently typed
+          words for convenient re-entry into text field
+          </li>
+          <li>Requirement 14: Application shall allow user to delete any given
+          substitution pair
+          </li>
+        </ul>
+        <p>
+          <strong>0.2.6 - 2010.08.20</strong><br />
+          Requirement 13: Application shall allow user to specify letter
+          substitutions by selection from match word list
+        </p>
+        <p>
+          <strong>0.2.2 - 2010.08.19</strong>
+        </p>
+        <ul>
+          <li>Requirement 12: Application shall filter list of words matching
+          the cryptogram word letter pattern through all specified substitution
+          pairs
+          </li>
+          <li>Requirement 11: Application shall allow user to delete all
+          substitution pairs
+          </li>
+          <li>Requirement 10: Application shall allow user to specify letter
+          substitutions by individual letter pairs
+          </li>
+        </ul>
+        <p>
+          <strong>0.1.2 - 2010.08.12-16</strong>
+        </p>
+        <ul>
+          <li>Requirement 9: Application may show match words in alphabetical
+          or letter frequency order
+          </li>
+          <li>Requirement 8: Application shall show an activity indicator while
+          searching for match words
+          </li>
+        </ul>
+        <p>
+          <strong>0.1.0 - 2010.08.06-10</strong>
+        </p>
+        <ul>
+          <li>Requirement 7: Application shall rank matching words based on
+          letter frequency statistics
+          </li>
+          <li>Requirement 6: Application shall search a database for words
+          matching the cryptogram word's letter pattern
+          </li>
+          <li>Requirement 5: Application shall inform user of the count of
+          words matching the cryptogram word letter pattern
+          </li>
+          <li>Requirement 4: Application shall be implemented in English with a
+          26-letter Latin alphabet
+          </li>
+          <li>Requirement 3: Application shall strip cryptogram word of numeric
+          digits, punctuation and spaces
+          </li>
+          <li>Requirement 2: Application shall convert cryptogram word to
+          uppercase
+          </li>
+          <li>Requirement 1: Application shall allow user to enter a cryptogram
+          word in mixed case and include punctuation, numeric digits and spaces
+          </li>
+        </ul>
+      </div>
+      <!-- ###################################################################### -->
+      <div class="column3">
+        <h1>
+          Articles and Cryptograms
+        </h1>
+          <p><strong>Cryptogram walkthroughs</strong>
+          are step-by-step examples of solving crypograms, for the benefit
+          of beginners. Available walkthroughs:
+           <a href="CryptoHintWalkthrough001.html">001</a>;
+           <a href="CryptoHintWalkthrough002.html">002</a>;
+           <a href="CryptoHintWalkthrough003.html">003</a>;
+           <a href="CryptoHintWalkthrough004.html">004</a>;
+           <a href="CryptoHintWalkthrough005.html">005</a>;
+           <a href="CryptoHintWalkthrough006.html">006</a>;
+           <a href="CryptoHintWalkthrough007.html">007</a>;
+           <a href="CryptoHintWalkthrough008.html">008</a>;
+           <a href="CryptoHintWalkthrough009.html">009</a>;
+           <a href="CryptoHintWalkthrough010.html">010</a>;
+           <a href="CryptoHintWalkthrough011.html">011</a>;
+           <a href="CryptoHintWalkthrough012.html">012</a>;
+           <a href="CryptoHintWalkthrough013.html">013</a>;
+           <a href="CryptoHintWalkthrough014.html">014</a>;
+           <a href="CryptoHintWalkthrough015.html">015</a>;
+           <a href="CryptoHintWalkthrough016.html">016</a>
+          </p>
+        <p>
+          2012.09.06 - <a href="CryptoHintArticle20120906.html">Article</a> on
+          whether using CryptoHint is "cheating" or not
+        </p>
+        <p>
+          2010.09.16 - <a href="CryptoHintArticle20100916.html">Article</a> on
+          using CryptoHint to extract K1-type keywords
+        </p>
+        <p>
+          2010.09.13 - The <a href="CryptoHintArticle20100913.html">50
+          cryptograms</a> used during CryptoHint beta testing are now
+          available.
+        </p>
+        <h1>
+          Future Additions
+        </h1>
+        <p>
+          Would like to make CryptoHint a <em>Universal</em> app that would run
+          on and take advantage of the extra screen space of an iPad.
+        </p>
+        <p>
+          One 'nice to have' feature would be the ability to type in a
+          cryptogram and have its letters replaced with the solution as the
+          substitution map is filled in. The major difficulty is the difficulty
+          of typing all those encrypted letters on an iPhone virtual keyboard
+          without errors. A minor difficulty would be finding available screen
+          space.
+        </p>
+      </div><!-- ##### Footer ##### -->
+      <div id="footer">
+        <br class="doNotDisplay doNotPrint" />
+        <div class="left">
+          <span class="doNotPrint">Copyright © 2012, Bersalona Technologies
+          LLC. All rights reserved.</span>
+        </div>
+        <div class="right">
+          <span class="doNotPrint">Comments? Queries? <a href=
+          "mailto:CryptoHint@bersalonatechnologies.com">CryptoHint@bersalonatechnologies.com</a><br />
+
+          <strong>Modified:</strong>2012.11.25 16:42</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

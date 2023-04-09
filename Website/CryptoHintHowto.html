@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+  <head>
+    <meta http-equiv="content-type" content=
+    "application/xhtml+xml; charset=iso-8859-1" />
+    <meta name="author" content="Bersalona Technologies LLC" />
+    <meta name="generator" content="author" />
+    <meta name="description" content=
+    "CryptoHint is an iPhone application designed to help solve cryptogram puzzles." />
+    <meta name="keywords" content=
+    "help solve cryptograms, cryptogram hint, cryptogram dictionary, cryptogram help" />
+    <meta name="rating" content="General" />
+    <meta name="viewport" content="width = device-width" />
+    <link rel="stylesheet" type="text/css" href="default.css" media=
+    "screen, projection, tv" title="Default" />
+    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+    <!-- New conditional stylesheets, recommended by Apple -->
+    <link media="only screen and (max-device-width: 480px)" href="iPhone.css"
+    type="text/css" rel="stylesheet" />
+    <link media="screen and (min-device-width: 481px)" href="default.css" type=
+    "text/css" rel="stylesheet" />
+    <title>
+      CryptoHint - solve cryptogram puzzles with a little help
+    </title>
+  </head>
+  <body>
+    <!-- For non-visual user agents: -->
+    <div id="top">
+      <a href="#main-copy" class="doNotDisplay doNotPrint">Skip to main
+      content.</a>
+    </div><!-- ##### Header ##### -->
+    <div id="header">
+      <div class="headerTitleRight">
+        <img src="images/CryptoHint_57x57.png" width="57" height="57" alt=
+        "CryptoHint icon" />
+      </div>
+      <h1 class="headerTitle">
+        CryptoHint
+      </h1>
+      <p class="headerSubtitle">
+        Solve cryptogram puzzles with a little help
+      </p>
+      <div class="subHeader">
+        <span class="doNotDisplay doNotPrint"><br />
+        Navigation:</span>
+        <ul class="navigation">
+          <li>
+            <a href="CryptoHintHome.html" class="tab">Overview</a>
+          </li>
+          <li>
+            <span class="highlighted tab">How to Use</span>
+          </li>
+          <li>
+            <a href="CryptoHintExtras.html" class="tab">Extras</a>
+          </li>
+          <li>
+            <a href="CryptoHintContact.html" class="tab">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div><!-- ##### Main Copy ##### -->
+    <div id="main-copy">
+      <!-- ###################################################################### -->
+      <div class="column12">
+        <h1>
+          Instructions
+        </h1>
+        <p>
+          The CryptoHint Main screen has 3 main input fields.
+        </p><img src="images/CryptoHint screenshots/Main-ShrunkNumbered.png"
+        height="240" width="160" class="alignleft" alt="image" />
+        <p>
+          The <strong>text field (1)</strong> is used for entry of a cryptogram
+          word. When empty it displays a <em>"Enter cryptogram word here"</em>
+          prompt. When the user taps the text field the keyboard will be
+          displayed; hitting the Return key will dismiss the keyboard and allow
+          the entered word to be parsed. Parsing consists of removing any
+          numeric digits and punctuation and converting the word to uppercase.
+          The wordlist will then be searched for words matching the cryptogram
+          word letter pattern.
+        </p>
+        <p>
+          The <strong>letter substitution map (2)</strong> displays how letters
+          in the cryptogram are mapped to letters in the solution. Tapping the
+          display leads the user to the substitution letter picker screen. When
+          CryptoHint starts up the map is empty; as the user specifies
+          cryptogram/solution letter pairs and cryptogram word/solution word
+          matches, the substitution map is filled in and used to improve
+          subsequent word searches.
+        </p>
+        <p>
+          The table lists a <strong>history of the most recent cryptogram words
+          (3)</strong>. Tapping on a given word in the list will repeat a
+          search for that word. This saves the user from retyping the
+          cryptogram word.
+        </p>
+        <p>
+          Type a single word from a cryptogram in the text field. In this
+          example we'll type 'XJFFXU'. CryptoHint will take up to a few seconds
+          to search for words that match the letter pattern, e.g. a 6-letter
+          word where the first and fifth letters are identical and the third
+          and fourth letters are identical. If there are any letters
+          established in the letter substitution map the search will filter the
+          word matches based on the substitution map. If any words are found
+          the Match screen will appear.
+        </p><img class="alignleft" src=
+        "images/CryptoHint screenshots/Match-Shrunk.png" height="240" width=
+        "160" alt="image" />
+        <p>
+          The CryptoHint Match screen displays the <strong>list of words
+          matching the cryptogram word</strong> while complying with the
+          current letter substitution map. If the user selects one of the
+          words, the letters of that word are added to the letter substitution
+          map.
+        </p>
+        <p>
+          The <strong>selector</strong> at the bottom of this screen allows the
+          list to be displayed either <strong>alphabetically or by letter
+          frequency</strong>; common words are listed higher than normal in the
+          letter frequency view.
+        </p><img src="images/CryptoHint screenshots/Pickers-Shrunk.png" class=
+        "alignright" height="240" width="160" alt="image" />
+        <p>
+          You can also select individual letters in the letter substitution map
+          by tapping the map itself. The screen that allows you to make the
+          selections appears - it has two picker wheels and a selection button.
+          The <strong>left wheel lists the letters from the
+          cryptogram</strong>; the <strong>right wheel lists available letters
+          for the solution</strong>; tap the selection button when the
+          approrpriate cryptogram letter is lined up with the desired solution
+          letter.
+        </p>
+        <h1 style="CLEAR: both">
+          Example of Using CryptoHint
+        </h1>
+        <p class="cryptogram">
+          XM CPAM BVBAM PZ AMWGPKWFXFSFRL RDBK LPI BAM PZ LPIA AFQDRW. -
+          IKBRRAFXIRMH
+        </p>
+        <p>
+          OK, this cryptogram has one obvious pattern: BVBAM could be EVERY.
+          Type 'BVBAM' in the text field, though, and CryptoHint finds 382
+          matches like EVENT, EVERY, AGAIN and AWAKE, all of which are common
+          enough to be in a cryptogram. CryptoHint does find only one word for
+          AMWGPKWFXFSFRL, RESPONSIBLITY, so let's use that first.
+        </p>
+        <p class="cryptogram">
+          XM CPAM BVBAM PZ AMWGPKWFXFSFRL RDBK LPI BAM PZ LPIA AFQDRW. -
+          IKBRRAFXIRMH<br />
+          BE .ORE ...RE O. RESPONSIBILITY T..N .O. .RE O. .O.R RI..TS. -
+          .N.TTRIB.TE.
+        </p>
+        <p>
+          Looks good so far. BVBAM now has some letters filled in, so let
+          CryptoHint do a search on it again. No need to retype BVBAM, if you
+          had tried it earlier it will be in the list of recent cryptogram
+          words so just tap its entry: this time only one word comes up, AWARE.
+        </p>
+        <p class="cryptogram">
+          XM CPAM BVBAM PZ AMWGPKWFXFSFRL RDBK LPI BAM PZ LPIA AFQDRW. -
+          IKBRRAFXIRMH<br />
+          BE .ORE AWARE O. RESPONSIBILITY T.AN .O. ARE O. .O.R RI..TS. -
+          .NATTRIB.TE.
+        </p>
+        <p>
+          CryptoHint finds THAN and TUAN for RDBK. THAN is probably the
+          correct choice, TUAN (a Malay form of respectful address for a
+          man, equivalent to sir or mister; OR a carnivorous marsupial
+          from Australia) is an obscure word.
+        </p>
+        <p class="cryptogram">
+          XM CPAM BVBAM PZ AMWGPKWFXFSFRL RDBK LPI BAM PZ LPIA AFQDRW. -
+          IKBRRAFXIRMH<br />
+          BE .ORE AWARE O. RESPONSIBILITY THAN .O. ARE O. .O.R RI.HTS. -
+          .NATTRIB.TE.
+        </p>
+        <p>
+          You can probably work out the rest. CPAM is probably MORE, PZ is
+          probably OF...
+        </p>
+        <p class="cryptogram">
+          XM CPAM BVBAM PZ AMWGPKWFXFSFRL RDBK LPI BAM PZ LPIA AFQDRW. -
+          IKBRRAFXIRMH<br />
+          BE MORE AWARE OF RESPONSIBILITY THAN .O. ARE OF .O.R RI.HTS. -
+          .NATTRIB.TE.
+        </p>
+        <p>
+          The rest are obvious.
+        </p>
+        <p class="cryptogram">
+          BE MORE AWARE OF RESPONSIBILITY THAN YOU ARE OF YOUR RIGHTS. -
+          UNATTRIBUTED
+        </p>
+      </div>
+      <!-- ###################################################################### -->
+      <div class="column3">
+        <h1>
+          Hints and Tips
+        </h1>
+        <ul>
+          <li><strong>Start with the longest words
+          with any repeating letters</strong> - the list of matching words should be
+          relatively short and the word will be good for many letters for the
+          letter substitution map, which will narrow the search for subsequent
+          words.
+          </li>
+          <li>If a cryptogram word search finds no matches, <strong>verify you've
+          typed the word correctly</strong>. If there were no typos, there's probably a
+          bad guess in the letter substitution map, and/or a previously
+          selected word was incorrect.
+          </li>
+          <li>A single-letter cryptogram word is either A or I; very rarely it
+          is O.
+          </li>
+          <li>The wordlist includes some proper names like LINCOLN, SHAKESPEARE
+          and ANONYMOUS, <strong>try the author's name</strong> if it's included 
+          in the cryptogram.
+          </li>
+        </ul>
+      </div><!-- ##### Footer ##### -->
+      <div id="footer">
+        <br class="doNotDisplay doNotPrint" />
+        <div class="left">
+          <span class="doNotPrint">Copyright © 2010, Bersalona Technologies
+          LLC. All rights reserved.</span>
+        </div>
+        <div class="right">
+          <span class="doNotPrint">Comments? Queries? <a href=
+          "mailto:CryptoHint@bersalonatechnologies.com">CryptoHint@bersalonatechnologies.com</a><br />
+
+          <strong>Modified:</strong>2011.06.19 14:42</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

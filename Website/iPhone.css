@@ -1,0 +1,439 @@
+/***************************************
+ * TITLE: Gazetteer Default Stylesheet *
+ * URI  : gazetteer/default.css        *
+ * MODIF: 2003-Nov-08 13:56 +0800      *
+ * MEDIA: screen, projection, tv       *
+ ***************************************/
+
+/* DESCRIPTION:
+ * This is the default stylesheet for Gazetteer. It renders the main copy in three columns
+ * and has a tab-like bar beneath the title for navigation. The tabs become depressed when
+ * the User hovers the mouse pointer over them, giving a dynamic effect.
+ *
+ * This stylesheet is best used for display on large display areas (eg: standard computer
+ * monitors).
+ */
+
+
+/* ##### Common Styles ##### */
+
+body {
+	color: black;
+	background-color: black;
+	font-family: helvetica, sans-serif;
+	/* font-size: 71%; /* Enables font size scaling in MSIE */
+	font-size: 100%; /* Enables font size scaling in MSIE */
+	margin: 0;
+	padding: 0;
+}
+
+html > body {
+  font-size: 8.5pt;
+}
+
+acronym, .titleTip {
+  border-bottom: 1px dotted gray;
+  cursor: help;
+  margin: 0;
+  padding: 0 0 0.4px 0;
+}
+
+acronym:hover, .titleTip:hover {  /* Ignored by MSIE. The nerve! */
+  border-bottom: 1px solid rgb(70,130,180);  /* 'steelblue' not recognised here by Opera */
+}
+
+table.OfficerList td p, table#PlaceList td, table#generic td p{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.doNotDisplay {
+  display: none;
+}
+
+.clipArt {
+}
+
+.smallCaps {
+  font-size: 110%;
+  font-variant: small-caps;
+}
+
+.cryptogram
+{
+	font-family: "Courier New", Courier, monospace;
+}
+
+/* Images */
+
+img {
+	border: none;
+}
+
+img.centered {
+display:block;
+margin: 5px auto;
+border: 1px solid black;
+padding:2px;
+}
+
+img.alignright {
+float: right;
+border: 1px solid black;
+margin: 0em 0em 0.5em 0.5em;
+}
+
+img.alignleft {
+float: left;
+border: 1px solid black;
+margin: 0em 0.5em 0.5em 0em;
+}
+
+img.alignleftInline {
+float: left;
+margin: 0px 5px 0px 0px;
+padding: 0px 2px 0px 0px;
+}
+
+/* ###### Header ###### */
+
+.headerTitle {
+	color: white;
+	background-color: transparent;
+	font-family: Helvetica, sans-serif;
+	margin: 0 0 0 5mm;
+	padding: 0 0 0 0;
+	text-align: left;
+	font-weight: bold;
+	font-size: 200%;
+}
+
+.headerTitleRight {
+	visibility: hidden;
+	color: white;
+	background-color: transparent;
+	font-family: Helvetica, sans-serif;
+	font-size: 20%;
+	margin: 0 0em 0 0mm;
+	padding: 0ex 0 0 0;
+	float: right;
+	display: none;
+}
+
+.headerSubtitle {
+	color: white;
+	background-color: transparent;
+	font-family: Helvetica, sans-serif;
+	font-size: small;
+	margin: 0 0 0 5mm;
+	padding: 0ex 0 0 0;
+}
+
+
+.subHeader {
+	margin: 0;
+	padding: 0.75em 0 0.5ex 1ex;
+	border-bottom: 0 solid #A08C68; /* 'steelblue' not recognised here by Opera */
+}
+
+.subHeader .dateline {
+	color: Black;
+	background-color: transparent;
+	font-style: italic;
+	float: right;
+	margin: 0 1ex;
+	padding: 0;
+}
+
+.subHeader .navigation {
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0;
+	padding: 0 2em;
+}
+
+.subHeader .navigation li {
+  line-height: 1.75em;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.subHeader a {
+	color: Black;
+	background-color: transparent;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.subHeader a:hover {
+  color: steelblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.subHeader .navigation .tab {
+	color: black;
+	background-color: #d2bd86;
+	text-decoration: none;
+	font-weight: normal;
+	margin: 0;
+	padding: 0.5ex 0.5em 1ex 0.5em;
+	
+	border-top: 0px solid rgb(231,231,231);
+	border-right: 0px solid rgb(97,97,97);
+	border-left: 0px solid rgb(231,231,231);
+	
+}
+
+
+.subHeader .navigation a.tab:hover {
+	color: Black;
+	background-color: #d2bd86;
+	text-decoration: none;
+	padding-bottom: 0.8ex;
+	border-top: 0px solid rgb(97,97,97);
+	border-right: 0px solid rgb(231,231,231);
+	border-left: 0px solid rgb(97,97,97);
+	position: relative;
+	left: 1px;
+	top: 1px;
+}
+
+.subHeader .navigation .highlighted {
+	color: black;
+	background-color: #FFF8DC;
+	border-top-color: black;
+	border-right-color: black;
+	border-left-color: black;
+}
+
+
+/* ##### Main Copy ##### */
+
+#main-copy {
+	text-align: left;
+	line-height: 1.5em;
+	margin: 0 2em 0 2em;
+	padding: 0;
+	background-color: #FFF8DC;
+}
+
+#main-copy p {
+  margin: 0 0 1.5em 0;
+  padding: 0;
+}
+
+#main-copy q {
+	color: #990000;
+	background-color: transparent;
+	font-size: 200%;
+	font-weight: bold;
+	line-height: 1.5em;
+	text-align: left;
+	text-indent: -1ex;
+	margin: 0.3em 0 0.8em 1ex;
+	padding: 0;
+	display: block;
+}
+
+#main-copy .center {
+  text-align: center;
+  line-height: 1.45em;
+}
+
+#main-copy q.centred {
+  text-align: center;
+  margin-left: 0;
+}
+
+q:before, q:after {  /* Prevents Gecko from adding quotation marks around quote */
+  content: "";
+}
+
+#main-copy a {
+	color: Black;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#main-copy a:hover {
+	color: Black;
+	background-color: #FFCC66;
+	text-decoration: none;
+}
+
+#main-copy h1 {
+	font-family: helvetica, sans-serif;
+	font-size: 145.5%;
+	font-weight: bold;
+	margin: .5em 0 1em 0;
+	padding: 3px 3px 3px 3px;
+	background-color: #d2bd86;
+	color: black;
+	text-align: center;
+}
+
+#main-copy h2, h3, h4, h5, h6 {
+	line-height: normal;
+}
+
+#main-copy ul {
+	padding-left: 3ex;
+}
+
+
+.byline {
+  font-size: 91%;
+  border-bottom: 1px solid gray;
+  margin: -1.2em 0 1em 0;
+  padding: 0;
+  width: 100%;  /* Circumvents a rendering bug (?) in MSIE 6.0 */
+}
+
+[class~="byline"] {
+  margin-top: -1.4em;
+}
+
+#main-copy .byline a {
+	color: black;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#main-copy .byline a:hover {
+	color: Black;
+	background-color: Aqua;
+	text-decoration: underline;
+}
+
+/* For iPhone version of .CSS file, copy .column123 to all other column classes
+   and zeroize column dividers */
+.column123 {
+  margin: 3em 0;
+  padding: 0 2%;
+  float: left;
+  width: 94%;
+}
+.column1, .column2, .column3 {
+  margin: 3em 0;
+  padding: 0 2%;
+  float: left;
+  width: 94%;
+}
+.columnLeft, .columnRight {
+  margin: 3em 0;
+  padding: 0 2%;
+  float: left;
+  width: 94%;
+}
+
+.column2 {  /* Renders the column dividers */
+  border-left: 0px solid rgb(204,204,204);
+  border-right: 0px solid rgb(204,204,204);
+}
+
+
+
+.column12, .column23 {
+  margin: 3em 0;
+  padding: 0 2%;
+  float: left;
+  width: 94%;
+}
+
+.column12 {  /* Renders the column dividers */
+  /* border-left: 1px solid rgb(204,204,204); */
+  border-right: 0px solid rgb(204,204,204);
+}
+
+.column23 {  /* Renders the column dividers */
+  border-left: 0px solid rgb(204,204,204);
+  /* border-right: 1px solid rgb(204,204,204); */
+}
+
+.columnLeft {  /* Renders the column dividers */
+  /* border-left: 1px solid rgb(204,204,204); */
+  border-right: 0px solid rgb(204,204,204);
+}
+
+.columnRight {  /* Renders the column dividers */
+  border-left: 0px solid rgb(204,204,204);
+  /* border-right: 1px solid rgb(204,204,204); */
+}
+
+
+
+
+.raisedCap {
+  text-indent: 0.5em;
+}
+
+[class~="raisedCap"] {  /* Circumvents a rendering bug (?) in MSIE 6.0 */
+  text-indent: 1em;
+}
+
+.raisedCap:first-line {
+  font-weight: bold;
+}
+
+.raisedCap:first-letter {
+  font-size: 155%;
+}
+
+.noIndent {
+  text-indent: 0 !important;
+}
+
+.tableHeader {
+	background: Silver;
+}
+
+.tableRowHighlighted {
+	background: #FFFFCC;
+}
+
+
+/* ###### Footer ###### */
+
+#footer {
+	color: white;
+	background-color: black;
+	margin: 0;
+	padding: 0.25em 5mm 1.25ex 4mm;
+	clear: both;
+}
+
+body > #footer {  /* Circumvents a rendering bug (?) in MSIE 6.0 */
+  padding-top: 0.5em;
+}
+
+#footer .left {
+  line-height: 1.45em;
+  float: left;
+  clear: left;
+}
+
+#footer .right {
+  text-align: right;
+  line-height: 1.45em;
+}
+
+#footer .center {
+  text-align: center;
+  line-height: 1.45em;
+}
+
+#footer a {
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}

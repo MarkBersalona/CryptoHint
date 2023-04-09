@@ -1,0 +1,30 @@
+Although CryptoHint was not designed to extract keywords from a crytptogram, it turns out CryptoHint naturally extracts K1-type keywords from cryptograms so encrypted!
+
+Let's define a few terms.  The American Cryptogram Association (www.cryptogram.org) has a document in the Resources section of their website defining and describing the optional use of a keyword or keywords in mapping the original plaintext alphabet to the ciphertext alphabet.  Instead of simply rearranging the plaintext alphabet randomly, the alphabet is reassigned by simple rules.
+
+"Four basic schemes are referred to by number, K1 to K4. The alphabet is keyed by writing an arbitrary keyword or phrase followed by the rest of the alphabet in normal order. A letter occurring more than once is omitted after the first occurrence. (e.g. CONSTELLATION becomes CONSTELAI.) Either the plaintext or the ciphertext alphabet may be shifted ("wrapped round") to avoid a plaintext letter standing for itself in simple substitutions."
+
+For a K1 keyword type encryption, the keyword affects the plaintext while the ciphertext alphabet remains the same though possibly shifted. This is how CryptoHint displays its letter substitution map:  the ciphertext alphabet is listed in order.  So if a cryptogram were encrypted with a K1 keyword, CryptoHint will naturally reveal that K1 keyword once the cryptogram is solved.
+
+Consider the following cryptogram, from a quote by Albert Einstein.
+
+BWBAIVMFQL VMJV FU ABJHHI LABJV JQC FQUSFAFQL FU EABJVBC GI VMB FQCFWFCDJH XMR EJQ HJGRA FQ KABBCRP.
+
+Use CryptoHint to solve the cryptogram, making sure all the letters in the cryptogram get mapped to solution letters in the letter substitution map.
+
+1.  Start with the large words:  FQCFWFCDJH is INDIVIDUAL; FQUSFAFQL is INSPIRING; BWBAIVMFQL is EVERYTHING; KABBCRP is FREEDOM.
+
+2.  Solve the rest of the cryptogram, making sure to assign all the cryptogram letters to their respective solution letters:  E=C; G=B; X=W.
+
+The solution is:
+
+EVERYTHING THAT IS REALLY GREAT AND INSPIRING IS CREATED BY THE INDIVIDUAL WHO CAN LABOR IN FREEDOM.
+
+Now take a look at the CryptoHint letter substitution map:
+
+{graphic}
+
+The cryptogram had been encrypted using the K1-type keyword REDUCIBLY.  Neat, huh?
+
+How did I know beforehand the cryptogram had been encrypted with a K1-type keyword?  In this particular case, the author gave the hint it was a K1 Aristrocrat.  But if I hadn't known, CryptoHint would have revealed the keyword anyway.
+
