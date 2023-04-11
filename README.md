@@ -19,12 +19,12 @@ your pocket.
 iOS 4. (2010-2014)</em>
 
 
-<img src="Website/images/CryptoHint screenshots/Main.png" alt="Main" />
-<img src="Website/images/CryptoHint screenshots/MainEntry.png" alt="Enter cryptogram word" />
-<img src="Website/images/CryptoHint screenshots/Match.png" alt="Matching words, sorted by commonality" />
-<img src="Website/images/CryptoHint screenshots/MatchSelected.png" alt="Match word selected" />
-<img src="Website/images/CryptoHint screenshots/Pickers.png" alt="Individual letter pickers" />
-<img src="Website/images/CryptoHint screenshots/HelpExample.png" alt="Built-in help screen" />
+<img src="Website/images/CryptoHint screenshots/Main.png" height="345" width="240" alt="Main" />
+<img src="Website/images/CryptoHint screenshots/MainEntry.png" height="345" width="240" alt="Enter cryptogram word" />
+<img src="Website/images/CryptoHint screenshots/Match.png" height="345" width="240" alt="Matching words, sorted by commonality" />
+<img src="Website/images/CryptoHint screenshots/MatchSelected.png" height="345" width="240" alt="Match word selected" />
+<img src="Website/images/CryptoHint screenshots/Pickers.png" height="345" width="240" alt="Individual letter pickers" />
+<img src="Website/images/CryptoHint screenshots/HelpExample.png" height="345" width="240" alt="Built-in help screen" />
 
 
 ## Instructions
